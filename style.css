@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9873fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 580px;
+    border-radius: 15px;
+    margin-top: 5%;
+    padding: 30px;
+}
+
+.upp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.upp img {
+    width: 150px;
+    margin-top: 30px;
+    height: 150px;
+}
+
+.upp h1 {
+    font-size: 1.85rem;
+    font-family: "Popins", sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: "Popins", sans-serif;
+}
+
+.mid h1 {
+    font-size: 1.40rem;
+}
+
+.mid input {
+    height: 30px;
+    padding: 10px;
+    color: gray;
+    margin-top: 7px;
+    font-size: 1.25rem;
+    border: none;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: flex;
+    gap: 15px;
+}
+
+.dropdown select {
+    width: 180px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+    background-color: #9873fe;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    cursor: pointer;
+}
+.btnn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnn button {
+    border: none;
+    background-color: #9873fe;
+    color: white;
+    font-size: 1.40rem;
+    padding: 10px;
+    width: 383px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: "Popins", sans-serif;
+    cursor: pointer;
+}
+.converted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btnn .converted {
+    font-family: "Popins", sans-serif;
+    border: none;
+    background-color: #bcc1e8;
+    color: black;
+    font-weight: 600;
+    font-size: 1.40rem;
+    padding: 10px;
+    width: 363px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+@media (max-width: 490px) {
+    .container{
+        margin-top: 10%;
+        height: 720px;
+        width: 300px;
+    }
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dropdown select{
+        width: 240px;
+    }
+    .btnn button {
+        width: 250px;
+    }
+    .btnn .converted {
+        width: 250px;
+        font-size: 1.20rem;
+    }
+}
+@media (max-width: 325px){
+    .container{
+        margin-top: 10%;
+        height: 750px;
+        width: 230px;
+    }
+}
